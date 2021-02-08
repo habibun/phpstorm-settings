@@ -55,6 +55,7 @@
             <extension name="mysqlnd" />
             <extension name="openssl" />
             <extension name="pcntl" />
+            <extension name="pcov" />
             <extension name="pcre" />
             <extension name="pdo_mysql" />
             <extension name="pdo_pgsql" />
