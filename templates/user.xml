@@ -1,5 +1,5 @@
 <templateSet group="user">
-  <template name="lt_rs_unique_m" value="$this-&gt;rules['$PROPERTY_NAME$'] = Validator::notEmpty()&#10;            -&gt;stringType()&#10;            -&gt;length(4, 15)&#10;            -&gt;setName(&quot;$CAPITALIZE_PROPERTY_NAME$&quot;)&#10;        ;&#10;        $this-&gt;rules['$PROPERTY_NAME$'] = Validator::callback(&#10;            $this-&gt;unique($SELECTION$::class, '$PROPERTY_NAME$', '$CASE$')&#10;        )&#10;            -&gt;setTemplate('$CAPITALIZE_PROPERTY_NAME$ already exist.')&#10;        ;$END$" description="Respect Validator Unqiue Mandatory" toReformat="true" toShortenFQNames="true">
+  <template name="lt_rs_unique_m" value="        $this-&gt;rules['$PROPERTY_NAME$'] = Validator::callback(&#10;            $this-&gt;unique($SELECTION$::class, '$PROPERTY_NAME$', '$CASE$')&#10;        )&#10;            -&gt;setTemplate('$CAPITALIZE_PROPERTY_NAME$ already exist.')&#10;        ;$END$" description="Respect Validator Unqiue Mandatory" toReformat="true" toShortenFQNames="true">
     <variable name="PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CASE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CAPITALIZE_PROPERTY_NAME" expression="underscoresToSpaces(capitalize(PROPERTY_NAME))" defaultValue="" alwaysStopAt="true" />
