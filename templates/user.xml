@@ -1,5 +1,5 @@
 <templateSet group="user">
-  <template name="test" value="foreach ( as $item) {&#10;            &#10;        }" toReformat="true" toShortenFQNames="true">
+  <template name="test" value="foreach ( as $item) {&#10;            &#10;        }" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="PHP Expression" value="true" />
       <option name="PHP Statement" value="true" />
