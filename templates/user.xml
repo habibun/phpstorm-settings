@@ -1,5 +1,97 @@
 <templateSet group="user">
-  <template name="test" value="foreach ( as $item) {&#10;            &#10;        }" description="" toReformat="true" toShortenFQNames="true">
+  <template name="b_v_unique_m" value="$this-&gt;rules['$PROPERTY_NAME$'] = Validator::notEmpty()&#10;            -&gt;stringType()&#10;            -&gt;length(4, 15)&#10;            -&gt;setName(&quot;$CAPITALIZE_PROPERTY_NAME$&quot;)&#10;        ;&#10;        $this-&gt;rules['$PROPERTY_NAME$'] = Validator::callback(&#10;            $this-&gt;unique($SELECTION$::class, '$PROPERTY_NAME$', '$CASE$')&#10;        )&#10;            -&gt;setTemplate('$CAPITALIZE_PROPERTY_NAME$ already exist.')&#10;        ;$END$" description="Respect Validator Unqiue Mandatory" toReformat="true" toShortenFQNames="true">
+    <variable name="PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CASE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CAPITALIZE_PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+  <template name="b_v_int_m" value="$this-&gt;rules['$PROPERTY_NAME$'] = Validator::notEmpty()-&gt;intType()-&gt;setName('$CAPITALIZE_PROPERTY_NAME$');" description="Respect Validator String Mandatory" toReformat="true" toShortenFQNames="true">
+    <variable name="PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CAPITALIZE_PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+  <template name="b_v_string_m" value="$this-&gt;rules['$PROPERTY_NAME$'] = Validator::notEmpty()-&gt;stringType()-&gt;setName('$CAPITALIZE_PROPERTY_NAME$');$END$" description="RespectValidator String Mandatory" toReformat="true" toShortenFQNames="true">
+    <variable name="PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CAPITALIZE_PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+  <template name="b_v_string_o" value="$this-&gt;rules['$PROPERTY_NAME$'] = Validator::optional(Validator::notEmpty()-&gt;stringType()-&gt;setName('$CAPITALIZE_PROPERTY_NAME$'));$END$" description="Respect Validation String Optional" toReformat="true" toShortenFQNames="true">
+    <variable name="PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CAPITALIZE_PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+  <template name="b_v_int_o" value="$this-&gt;rules['$PROPERTY_NAME$'] = Validator::optional(Validator::notEmpty()-&gt;intType()-&gt;setName('$CAPITALIZE_PROPERTY_NAME$'));" description="Respect Validator String Optional" toReformat="true" toShortenFQNames="true">
+    <variable name="PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CAPITALIZE_PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+  <template name="b_v_boolean_m" value="$this-&gt;rules['$PROPERTY_NAME$'] = Validator::notEmpty()-&gt;boolType()-&gt;setName('$CAPITALIZE_PROPERTY_NAME$');" description="Respect Validator Boolean Mandatory" toReformat="true" toShortenFQNames="true">
+    <variable name="PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CAPITALIZE_PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+  <template name="b_v_float_m" value="$this-&gt;rules['$PROPERTY_NAME$'] = Validator::notEmpty()-&gt;FloatVal()-&gt;setName('$CAPITALIZE_PROPERTY_NAME$');" description="Respect Validator Float Mandatory" toReformat="true" toShortenFQNames="true">
+    <variable name="PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CAPITALIZE_PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+  <template name="b_v_boolean_o" value="$this-&gt;rules['$PROPERTY_NAME$'] = Validator::optional(Validator::notEmpty()-&gt;boolType()-&gt;setName('$CAPITALIZE_PROPERTY_NAME$'));" description="Respect Validator Boolean Optional" toReformat="true" toShortenFQNames="true">
+    <variable name="PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CAPITALIZE_PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+  <template name="b_v_float_o" value="$this-&gt;rules['$PROPERTY_NAME$'] = Validator::optional(Validator::notEmpty()-&gt;FloatVal()-&gt;setName('$CAPITALIZE_PROPERTY_NAME$'));" description="Respect Validator Float Optional" toReformat="true" toShortenFQNames="true">
+    <variable name="PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CAPITALIZE_PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+  <template name="b_v_date_m" value="$this-&gt;rules['$PROPERTY_NAME$'] = Validator::notEmpty()-&gt;date()-&gt;setName('$CAPITALIZE_PROPERTY_NAME$');" description="Respect Validator Date Mandatory" toReformat="true" toShortenFQNames="true">
+    <variable name="PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CAPITALIZE_PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+  <template name="b_v_date_o" value="$this-&gt;rules['$PROPERTY_NAME$'] = Validator::optional(Validator::notEmpty()-&gt;date()-&gt;setName('$CAPITALIZE_PROPERTY_NAME$'));" description="Respect Validator Date Optional" toReformat="true" toShortenFQNames="true">
+    <variable name="PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CAPITALIZE_PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+  <template name="b_v_unique_o" value="$this-&gt;rules['$PROPERTY_NAME$'] = Validator::optional(&#10;            Validator::notEmpty()&#10;            -&gt;stringType()&#10;            -&gt;length(4, 15)&#10;            -&gt;setName(&quot;$CAPITALIZE_PROPERTY_NAME$&quot;)&#10;        );&#10;        $this-&gt;rules['$PROPERTY_NAME$'] = Validator::optional(&#10;        Validator::callback(&#10;            $this-&gt;unique($SELECTION$::class, '$PROPERTY_NAME$', '$CASE$')&#10;        )&#10;            -&gt;setTemplate('$CAPITALIZE_PROPERTY_NAME$ already exist.'))&#10;        ;$END$" description="Respect Validator Unqiue Optional" toReformat="true" toShortenFQNames="true">
+    <variable name="PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CASE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CAPITALIZE_PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP Expression" value="true" />
       <option name="PHP Statement" value="true" />
