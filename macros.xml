@@ -1,0 +1,15 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="test">
+      <action id="EditorEnter" />
+      <action id="EditorEnter" />
+      <action id="EditorEnter" />
+    </macro>
+    <macro name="ready test">
+      <typing text-keycode="83:0;70:0;66:0">sfb</typing>
+      <shortuct text="ENTER" />
+      <typing text-keycode="71:0;80:0">gp</typing>
+      <shortuct text="ENTER" />
+    </macro>
+  </component>
+</application>
