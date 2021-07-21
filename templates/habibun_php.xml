@@ -1,3 +1,7 @@
 <templateSet group="habibun_php">
-  <template name="lt_p_vd" value="echo '&lt;pre&gt;' . var_export($VARIABLE_NAME, true) . '&lt;/pre&gt;';&#10;&#10;" toReformat="false" toShortenFQNames="true" />
+  <template name="lt_p_vd" value="echo '&lt;pre&gt;';var_dump($worker);echo '&lt;/pre&gt;';" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
