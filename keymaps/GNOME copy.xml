@@ -15,4 +15,7 @@
     <keyboard-shortcut first-keystroke="shift f6" />
     <keyboard-shortcut first-keystroke="alt r" />
   </action>
+  <action id="Symfony2Symbols">
+    <keyboard-shortcut first-keystroke="alt s" />
+  </action>
 </keymap>
