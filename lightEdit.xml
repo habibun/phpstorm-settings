@@ -2,20 +2,7 @@
   <component name="LightEdit">
     <option name="sessionFiles">
       <list>
-        <option value="file:///ReportController.php" />
-      </list>
-    </option>
-    <option name="supportedFilePatterns">
-      <list>
-        <option value="*.conf" />
-        <option value="*.ini" />
-        <option value="*.json" />
-        <option value="*.log" />
-        <option value="*.md" />
-        <option value="*.sh" />
-        <option value="*.txt" />
-        <option value="*.xml" />
-        <option value="*.yml" />
+        <option value="file:///ProdPlanReceiveController.php" />
       </list>
     </option>
   </component>
