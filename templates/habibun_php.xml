@@ -1,5 +1,5 @@
 <templateSet group="habibun_php">
-  <template name="lt_p_vd" value="echo '&lt;pre&gt;';var_dump($VARIABLE_NAME);echo '&lt;/pre&gt;';" description="var_dump look pretty" toReformat="true" toShortenFQNames="true">
+  <template name="lt_vd" value="echo '&lt;pre&gt;';var_dump($END$);echo '&lt;/pre&gt;';" description="pretty var_dump" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
