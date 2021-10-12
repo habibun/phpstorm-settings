@@ -2,8 +2,8 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="git_description" type="AUTO_DETECTED" />
-      <mapping pattern="Intl_char.php" type="AUTO_DETECTED" />
       <mapping pattern="MakeFileBackup" type="AUTO_DETECTED" />
+      <mapping pattern="git_description" type="AUTO_DETECTED" />
       <mapping pattern="git_description.txt" type="AUTO_DETECTED" />
       <mapping ext="js " type="AUTO_DETECTED" />
       <mapping pattern=".php-version" type="PLAIN_TEXT" />
