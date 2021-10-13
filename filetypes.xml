@@ -3,7 +3,6 @@
     <extensionMap>
       <mapping pattern="git_description" type="AUTO_DETECTED" />
       <mapping pattern="MakeFileBackup" type="AUTO_DETECTED" />
-      <mapping pattern="git_description" type="AUTO_DETECTED" />
       <mapping pattern="git_description.txt" type="AUTO_DETECTED" />
       <mapping ext="js " type="AUTO_DETECTED" />
       <mapping pattern=".php-version" type="PLAIN_TEXT" />
