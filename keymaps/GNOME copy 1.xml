@@ -1,0 +1,14 @@
+<keymap version="1" name="GNOME copy 1" parent="Default for GNOME">
+  <action id="EditorToggleCase">
+    <keyboard-shortcut first-keystroke="shift ctrl u" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt z" />
+  </action>
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="alt insert" />
+    <keyboard-shortcut first-keystroke="alt i" />
+  </action>
+  <action id="ShowPopupMenu">
+    <keyboard-shortcut first-keystroke="context_menu" />
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
+</keymap>
