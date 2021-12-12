@@ -4,6 +4,7 @@
       <mapping pattern="MakeFileBackup" type="AUTO_DETECTED" />
       <mapping pattern="git_description.txt" type="AUTO_DETECTED" />
       <mapping ext="js " type="AUTO_DETECTED" />
+      <mapping pattern="build" type="Native" />
       <mapping pattern=".php-version" type="PLAIN_TEXT" />
       <removed_mapping ext="md" approved="true" type="XML" />
       <removed_mapping ext="permissionset" approved="true" type="XML" />
