@@ -16,5 +16,6 @@
     <mask>*.module</mask>
     <mask>*.inc</mask>
     <mask>*.php</mask>
+    <mask>*.yaml</mask>
   </component>
 </application>
