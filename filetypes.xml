@@ -6,6 +6,7 @@
       <mapping pattern="MakeFileBackup" type="AUTO_DETECTED" />
       <mapping pattern="git_description.txt" type="AUTO_DETECTED" />
       <mapping ext="js " type="AUTO_DETECTED" />
+      <mapping pattern=".prettierrc" type="JSON" />
       <mapping pattern="build" type="Native" />
       <mapping pattern=".php-version" type="PLAIN_TEXT" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
