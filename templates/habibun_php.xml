@@ -4,4 +4,9 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="lt-pu-dump" value="dd($this-&gt;client-&gt;getResponse()-&gt;getContent());" description="phpunit show response" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
