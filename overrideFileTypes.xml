@@ -1,6 +1,6 @@
 <application>
   <component name="OverrideFileTypeManager">
-    <file url="file://$USER_HOME$/Projects/iqra/build" value="AUTO_DETECTED" />
-    <file url="file://$USER_HOME$/Projects/php/src/Migration/Php56To70/Intl_char.php" value="PHP" />
+    <file url="file://$USER_HOME$/Projects/test/aws/.ebextensions/01-main.config " value="YAML" />
+    <file url="file://$USER_HOME$/Projects/test/aws/.ebextensions/options.config" value="YAML" />
   </component>
 </application>
