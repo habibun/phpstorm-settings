@@ -2,5 +2,9 @@
   <component name="OverrideFileTypeManager">
     <file url="file://$USER_HOME$/Projects/test/aws/.ebextensions/01-main.config " value="YAML" />
     <file url="file://$USER_HOME$/Projects/test/aws/.ebextensions/options.config" value="YAML" />
+    <file url="file://$USER_HOME$/Projects/wip/elivetix/.ebextensions/01_setvars.config" value="YAML" />
+    <file url="file://$USER_HOME$/Projects/wip/elivetix/.ebextensions/02_uploads_cron.config" value="YAML" />
+    <file url="file://$USER_HOME$/Projects/wip/elivetix/.ebextensions/03_php.config" value="YAML" />
+    <file url="file://$USER_HOME$/Projects/wip/elivetix/.ebextensions/04_phpsettings.config" value="YAML" />
   </component>
 </application>
