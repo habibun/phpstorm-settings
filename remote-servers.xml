@@ -1,0 +1,9 @@
+<application>
+  <component name="RemoteServers">
+    <remote-server name="Ngrok" type="ngrok">
+      <configuration>
+        <option name="apiKey" value="1wKg0wgUpPPcTVPvDyMy8PHBLbH_41kBd1DTkgC2v3hNTy83y" />
+      </configuration>
+    </remote-server>
+  </component>
+</application>
