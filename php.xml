@@ -294,4 +294,9 @@
       </interpreter>
     </phpInfoCache>
   </component>
+  <component name="Psalm">
+    <Psalm_settings>
+      <psalm_fixer_by_interpreter interpreter_id="5ec9871e-4c31-401e-ac58-493ec37e0b72" tool_path="$USER_HOME$/Projects/wip/iqra/vendor/bin/psalm" timeout="60000" />
+    </Psalm_settings>
+  </component>
 </application>
