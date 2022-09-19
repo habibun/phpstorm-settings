@@ -3,6 +3,7 @@
     <words>
       <w>bismillah</w>
       <w>biznet</w>
+      <w>certonly</w>
       <w>challan</w>
       <w>ctype</w>
       <w>datagrid</w>
@@ -12,6 +13,7 @@
       <w>hizb</w>
       <w>indopak</w>
       <w>iqra</w>
+      <w>letsencrypt</w>
       <w>manzil</w>
       <w>mbstring</w>
       <w>micr</w>
