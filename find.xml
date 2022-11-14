@@ -1,12 +1,12 @@
 <application>
   <component name="FindSettings">
     <option name="caseSensitive" value="true" />
-    <option name="customScope" value="File '…/src/Eit/Bundle/AdminBundle/Command/CopyOldDataCommand.php'" />
-    <option name="defaultScopeName" value="File '…/src/Eit/Bundle/AdminBundle/Command/CopyOldDataCommand.php'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
     <option name="localCaseSensitive" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="SEARCH_SCOPE" value="File '…/src/Eit/Bundle/AdminBundle/Command/CopyOldDataCommand.php'" />
+    <option name="SEARCH_SCOPE" value="All Places" />
     <mask>.twig</mask>
     <mask>.yaml</mask>
     <mask>*.css</mask>
