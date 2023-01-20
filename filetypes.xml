@@ -7,9 +7,9 @@
       <mapping pattern="git_description.txt" type="AUTO_DETECTED" />
       <mapping ext="js " type="AUTO_DETECTED" />
       <mapping pattern="build" type="Native" />
-      <mapping ext="cnf" type="PLAIN_TEXT" />
-      <mapping ext="db" type="PLAIN_TEXT" />
       <mapping ext="config " type="PLAIN_TEXT" />
+      <mapping ext="db" type="PLAIN_TEXT" />
+      <mapping ext="cnf" type="PLAIN_TEXT" />
       <mapping ext="config" type="YAML" />
       <removed_mapping ext="app" approved="true" type="Erlang/OTP app" />
       <removed_mapping ext="config" approved="true" type="XML" />
