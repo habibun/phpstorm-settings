@@ -4,4 +4,10 @@
       <option name="PHP Class Member" value="true" />
     </context>
   </template>
+  <template name="hris_entity_string" value="    /**&#10;     * @var string&#10;     *&#10;     * @ORM\Column(name=&quot;$PROPERTY_NAME$&quot;, type=&quot;string&quot;, length=255)&#10;     *&#10;     * @JMS\Expose()&#10;     * @JMS\Groups({&quot;abstract_employee_service&quot;})&#10;     */&#10;    protected string $'$PROPERTY_NAME$';" toReformat="true" toShortenFQNames="true">
+    <variable name="PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
 </templateSet>
