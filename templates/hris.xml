@@ -1,5 +1,5 @@
 <templateSet group="hris">
-  <template name="hris_entity_id" value="/**&#10; * @var int $id&#10; *&#10; * @ORM\Id&#10; * @ORM\Column(type=&quot;integer&quot;)&#10; * @ORM\GeneratedValue(strategy=&quot;AUTO&quot;)&#10; */&#10;protected $id;" toReformat="false" toShortenFQNames="true">
+  <template name="hris_entity_id" value="/**&#10; * @var int $id&#10; *&#10; * @ORM\Id&#10; * @ORM\Column(type=&quot;integer&quot;)&#10; * @ORM\GeneratedValue(strategy=&quot;AUTO&quot;)&#10; */&#10;protected int $id;" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP Class Member" value="true" />
     </context>
