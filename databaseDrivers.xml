@@ -4,7 +4,7 @@
       <artifact id="MariaDB Connector J" name="MariaDB Connector J" use="true" version="2.7.3" />
     </driver>
     <driver id="mongo">
-      <artifact id="MongoDB" name="MongoDB" use="true" version="1.17" />
+      <artifact id="MongoDB" name="MongoDB" use="true" version="1.18" />
     </driver>
     <driver id="mysql.8">
       <artifact />
