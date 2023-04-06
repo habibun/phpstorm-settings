@@ -11,11 +11,18 @@
     <keyboard-shortcut first-keystroke="alt insert" />
     <keyboard-shortcut first-keystroke="alt i" />
   </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift f6" />
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
   <action id="ShowPopupMenu">
     <keyboard-shortcut first-keystroke="context_menu" />
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
   <action id="Symfony2Symbols">
     <keyboard-shortcut first-keystroke="alt s" />
+  </action>
+  <action id="randomness.ShowGroup">
+    <keyboard-shortcut first-keystroke="alt a" />
   </action>
 </keymap>
