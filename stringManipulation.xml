@@ -1,8 +1,10 @@
 <application>
   <component name="StringManipulationState">
-    <option name="lastAction">
+    <option name="lastActionModel">
       <UniversalActionModel>
-        <option name="actionClassName" value="osmedile.intellij.stringmanip.styles.ToCamelCaseAction" />
+        <option name="actionClassName" value="osmedile.intellij.stringmanip.increment.CreateSequenceAction" />
+        <option name="description" value="Keep first number, replace all other by incrementing. Carets without a selection will add a number." />
+        <option name="textWithMnemonic" value="Create Sequence" />
       </UniversalActionModel>
     </option>
   </component>
