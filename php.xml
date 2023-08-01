@@ -1,0 +1,7 @@
+<application>
+  <component name="PhpStan">
+    <PhpStan_settings>
+      <phpstan_by_interpreter interpreter_id="6acdc8e6-9693-41b2-8c68-80efc23b9267" tool_path="$USER_HOME$/Projects/wip/s-um/vendor/bin/phpstan" timeout="60000" />
+    </PhpStan_settings>
+  </component>
+</application>
