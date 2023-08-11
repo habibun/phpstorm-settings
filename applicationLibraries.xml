@@ -1,13 +1,13 @@
 <application>
   <component name="libraryTable">
-    <library name="bundle" type="javaScript">
+    <library name="line" type="javaScript">
       <properties>
         <sourceFilesUrls>
-          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_unicons.iconscout.com_release_v4.0.0_script_monochrome_bundle.js" />
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_unicons.iconscout.com_release_v3.0.0_css_line.css.js" />
         </sourceFilesUrls>
       </properties>
       <CLASSES>
-        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_unicons.iconscout.com_release_v4.0.0_script_monochrome_bundle.js" />
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_unicons.iconscout.com_release_v3.0.0_css_line.css.js" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
