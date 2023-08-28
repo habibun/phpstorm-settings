@@ -8,17 +8,18 @@
   <component name="PropertyService"><![CDATA[{
   "keyToString": {
     "PhpStorm.InitialConfiguration": "true",
+    "PluginConfigurable.selectionTab": "1",
     "bundled.plugins.list.saved.version": "PS-232.9559.64",
     "evlsprt.232": "18aa972fd00",
     "evlsprt3.232": "26",
     "experimental.ui.first.promotion.localdate": "2023-08-29",
     "experimental.ui.first.switch": "true",
-    "experimental.ui.switch": "true",
+    "experimental.ui.used.version": "232.9559.64",
     "fileTypeChangedCounter": "1",
     "fontSizeToResetConsole": "12.0",
     "fontSizeToResetEditor": "12.0",
     "input.method.disabler.muted": "true",
-    "previousColorScheme": "_@user_Darcula",
+    "previousColorScheme": "_@user_Dark",
     "tasks.pass.word.conversion.enforced": "true"
   },
   "keyToStringList": {
