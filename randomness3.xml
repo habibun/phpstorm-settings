@@ -1,10 +1,10 @@
 <application>
   <component name="Randomness">
-    <option name="uuid" value="653df862-fedc-4e7d-8d01-c73dd71d0186" />
+    <option name="uuid" value="2cf3cab3-7992-4510-bdfc-f228a1eb23f1" />
     <option name="version" value="3.0.0" />
     <option name="templateList">
       <TemplateList>
-        <option name="uuid" value="7e3e01d9-78f9-474b-ba5e-e212aa21292b" />
+        <option name="uuid" value="cc8d673c-6dd7-4434-82d6-6d97141e59a8" />
         <option name="templates">
           <list>
             <Template>
@@ -17,10 +17,10 @@
                   <option name="maxValue" value="1000" />
                   <option name="minValue" value="0" />
                   <option name="uppercase" value="false" />
-                  <option name="uuid" value="d0279cf5-7826-474c-b39f-a29ab2c84c81" />
+                  <option name="uuid" value="2193c120-67fe-4e4a-a1a3-3a2c4cad500d" />
                 </IntegerScheme>
               </option>
-              <option name="uuid" value="595048c7-7b7c-4647-b483-1682f5e79594" />
+              <option name="uuid" value="4a8329ff-238f-4a4e-9a80-bbadcbd9f6cb" />
             </Template>
             <Template>
               <option name="name" value="Decimal" />
@@ -33,10 +33,10 @@
                   <option name="maxValue" value="1000.0" />
                   <option name="minValue" value="0.0" />
                   <option name="showTrailingZeroes" value="false" />
-                  <option name="uuid" value="5098c249-67b5-42a5-9c3c-6d714c909de0" />
+                  <option name="uuid" value="ff274279-6ffd-450e-930c-6e8772b57926" />
                 </DecimalScheme>
               </option>
-              <option name="uuid" value="63369242-84cf-4895-b91a-42c49294b8bf" />
+              <option name="uuid" value="a1455c7d-35e8-4f8d-9fd7-5953f4370edf" />
             </Template>
             <Template>
               <option name="name" value="Alphanumerical String" />
@@ -46,17 +46,17 @@
                   <option name="pattern" value="[a-zA-Z0-9]{7,11}" />
                   <option name="regex" value="true" />
                   <option name="removeLookAlikeSymbols" value="false" />
-                  <option name="uuid" value="845bf572-c8c5-40df-9b4c-d54a08ac3986" />
+                  <option name="uuid" value="3f290be4-9ef1-4366-902d-d6bff0b18dad" />
                 </StringScheme>
               </option>
-              <option name="uuid" value="4dd85f77-f243-4a77-a10a-8e09b0201903" />
+              <option name="uuid" value="e6d985b3-2034-4469-aa12-5316b3d60ee2" />
             </Template>
             <Template>
               <option name="name" value="Personal Name" />
               <option name="schemes">
                 <WordScheme>
                   <option name="capitalization" value="RETAIN" />
-                  <option name="uuid" value="f28800f7-4adf-4c8f-b1c1-338b21d55d0a" />
+                  <option name="uuid" value="cc85a9f9-1409-4e12-bbae-3ce899992a67" />
                   <option name="words">
                     <list>
                       <option value="Abdo" />
@@ -564,7 +564,7 @@
                 </WordScheme>
                 <WordScheme>
                   <option name="capitalization" value="RETAIN" />
-                  <option name="uuid" value="e2ffd67d-7a38-4d1b-b3db-5b9fb21f2200" />
+                  <option name="uuid" value="7f98d521-052c-400c-8887-d3f4fd5e5d5e" />
                   <option name="words">
                     <list>
                       <option value="Abbas" />
@@ -1071,14 +1071,14 @@
                   </option>
                 </WordScheme>
               </option>
-              <option name="uuid" value="3da2e0f0-2c8b-4b71-a013-534b33d31b42" />
+              <option name="uuid" value="9b163447-2431-43b3-91ae-c929e17bdeae" />
             </Template>
             <Template>
               <option name="name" value="Lorem Ipsum" />
               <option name="schemes">
                 <WordScheme>
                   <option name="capitalization" value="FIRST_LETTER" />
-                  <option name="uuid" value="db273f76-991c-4109-965c-fcff6cc45314" />
+                  <option name="uuid" value="80346274-cbba-43ee-8836-8c2642385d8a" />
                   <option name="words">
                     <list>
                       <option value="a" />
@@ -1272,7 +1272,7 @@
                 </WordScheme>
                 <WordScheme>
                   <option name="capitalization" value="LOWER" />
-                  <option name="uuid" value="d5eb72f9-26f1-4dc8-9a5f-ee6377e08f71" />
+                  <option name="uuid" value="fa08825b-99e3-45ab-88c5-81bbce45293b" />
                   <option name="words">
                     <list>
                       <option value="a" />
@@ -1465,7 +1465,7 @@
                   </option>
                 </WordScheme>
               </option>
-              <option name="uuid" value="8de7833c-48cd-4228-b813-62f72c6b51e2" />
+              <option name="uuid" value="34a55a75-1a8c-4bf6-8da8-80a86fecbc0f" />
             </Template>
             <Template>
               <option name="name" value="Hex Color" />
@@ -1477,10 +1477,10 @@
                   <option name="maxValue" value="256" />
                   <option name="minValue" value="0" />
                   <option name="uppercase" value="false" />
-                  <option name="uuid" value="e920cd91-b883-42ee-a78d-324087664e16" />
+                  <option name="uuid" value="62ab9bee-23f7-4044-b9b5-2521dbced9e9" />
                 </IntegerScheme>
               </option>
-              <option name="uuid" value="5b27a2e0-3eeb-41c4-b1e6-710213aadee9" />
+              <option name="uuid" value="750a1499-31c6-4f7e-b5c1-47de17518cb7" />
             </Template>
             <Template>
               <option name="name" value="UUID" />
@@ -1489,10 +1489,10 @@
                   <option name="addDashes" value="true" />
                   <option name="type" value="4" />
                   <option name="uppercase" value="false" />
-                  <option name="uuid" value="94cd9501-98b7-46b8-bfad-f4842c1c9b8a" />
+                  <option name="uuid" value="857063b2-1b45-43f9-999e-1785cbeecba8" />
                 </UuidScheme>
               </option>
-              <option name="uuid" value="c2675ca8-304c-40e2-abe7-799ed5cf31a7" />
+              <option name="uuid" value="baf535d3-1194-4f7a-ae03-d9ed95e8f6e3" />
             </Template>
             <Template>
               <option name="name" value="Date-Time" />
@@ -1501,10 +1501,10 @@
                   <option name="maxDateTime" value="1924991999000" />
                   <option name="minDateTime" value="0" />
                   <option name="pattern" value="yyyy-MM-dd HH:mm:ss" />
-                  <option name="uuid" value="35dbcfc1-ab2f-4298-8320-6dae670644ec" />
+                  <option name="uuid" value="b8eb7157-b69f-4663-9194-67e65a096714" />
                 </DateTimeScheme>
               </option>
-              <option name="uuid" value="875ca229-b62d-44e0-80de-16a281ff2a37" />
+              <option name="uuid" value="3dcd5eda-c02d-4390-81bc-a7831130d00e" />
             </Template>
             <Template>
               <option name="name" value="IP address" />
@@ -1516,10 +1516,10 @@
                   <option name="maxValue" value="255" />
                   <option name="minValue" value="0" />
                   <option name="uppercase" value="false" />
-                  <option name="uuid" value="187e99e7-623b-4df8-9c17-9c0f25f8feeb" />
+                  <option name="uuid" value="c0e73a49-1aa3-4bec-9111-8e9e0cd80060" />
                 </IntegerScheme>
               </option>
-              <option name="uuid" value="1a198721-89d4-4cee-9392-d4e27892e881" />
+              <option name="uuid" value="1b4f552b-2b4f-40a7-aebd-985bdaa13941" />
             </Template>
             <Template>
               <option name="name" value="Constructor" />
@@ -1529,21 +1529,21 @@
                   <option name="pattern" value="MyClass(name = " />
                   <option name="regex" value="false" />
                   <option name="removeLookAlikeSymbols" value="false" />
-                  <option name="uuid" value="138c0514-4674-48fc-a89f-42ac68fd2d81" />
+                  <option name="uuid" value="085b9146-3ed1-484d-b491-e59ac487e162" />
                 </StringScheme>
                 <StringScheme>
                   <option name="capitalization" value="RETAIN" />
                   <option name="pattern" value="&quot;[a-zA-Z0-9]{5,8}&quot;" />
                   <option name="regex" value="true" />
                   <option name="removeLookAlikeSymbols" value="false" />
-                  <option name="uuid" value="69af1d6b-47e5-4e7f-a09e-53e53de809a5" />
+                  <option name="uuid" value="7f25aea5-9654-4abf-a507-63dae5693ab1" />
                 </StringScheme>
                 <StringScheme>
                   <option name="capitalization" value="RETAIN" />
                   <option name="pattern" value=", value = " />
                   <option name="regex" value="false" />
                   <option name="removeLookAlikeSymbols" value="false" />
-                  <option name="uuid" value="2e19d064-bd4f-490a-a1f5-0c71039a63ec" />
+                  <option name="uuid" value="7593f576-dc9d-453e-8153-0d64cc833f67" />
                 </StringScheme>
                 <IntegerScheme>
                   <option name="base" value="10" />
@@ -1552,17 +1552,17 @@
                   <option name="maxValue" value="1000" />
                   <option name="minValue" value="0" />
                   <option name="uppercase" value="false" />
-                  <option name="uuid" value="f4a19420-cb56-43b1-b742-3651124c5683" />
+                  <option name="uuid" value="9bddf87d-8b2d-4b00-9dba-70865277ec12" />
                 </IntegerScheme>
                 <StringScheme>
                   <option name="capitalization" value="RETAIN" />
                   <option name="pattern" value=")" />
                   <option name="regex" value="false" />
                   <option name="removeLookAlikeSymbols" value="false" />
-                  <option name="uuid" value="ac29b2d2-88cc-4bfd-a7a0-38b84bc63853" />
+                  <option name="uuid" value="326d97c1-880c-44d4-8b11-ea6fe335877a" />
                 </StringScheme>
               </option>
-              <option name="uuid" value="f4c71407-2e12-4933-b4d8-d81aeaed2277" />
+              <option name="uuid" value="882f185c-c2d4-4e71-9627-8ca1123c78d4" />
             </Template>
           </list>
         </option>
