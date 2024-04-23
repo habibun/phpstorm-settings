@@ -1,5 +1,5 @@
 <application>
-  <component name="FileTypeManager" version="18">
+  <component name="FileTypeManager" version="19">
     <extensionMap>
       <mapping pattern="text" type="AUTO_DETECTED" />
       <mapping pattern="test" type="AUTO_DETECTED" />
@@ -16,6 +16,7 @@
       <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
       <removed_mapping ext="dockerignore" approved="true" type="DockerIgnore file" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="md" approved="true" type="XML" />
       <removed_mapping ext="pdf" approved="true" type="Native" />
       <removed_mapping ext="permissionset" approved="true" type="XML" />
