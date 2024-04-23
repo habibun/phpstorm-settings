@@ -1,13 +1,13 @@
 <application>
   <component name="libraryTable">
-    <library name="OneSignalSDK.page" type="javaScript">
+    <library name="vue" type="javaScript">
       <properties>
         <sourceFilesUrls>
-          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.onesignal.com_sdks_web_v16_OneSignalSDK.page.js" />
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdn.jsdelivr.net_npm_docsify@4_lib_themes_vue.css" />
         </sourceFilesUrls>
       </properties>
       <CLASSES>
-        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.onesignal.com_sdks_web_v16_OneSignalSDK.page.js" />
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdn.jsdelivr.net_npm_docsify@4_lib_themes_vue.css" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
