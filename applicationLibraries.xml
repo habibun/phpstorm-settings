@@ -1,7 +1,14 @@
 <application>
   <component name="libraryTable">
-    <library name="@types/tailwindcss" type="javaScript">
-      <CLASSES />
+    <library name="OneSignalSDK.page" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.onesignal.com_sdks_web_v16_OneSignalSDK.page.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.onesignal.com_sdks_web_v16_OneSignalSDK.page.js" />
+      </CLASSES>
       <JAVADOC />
       <SOURCES />
     </library>
