@@ -30,6 +30,13 @@
       </map>
     </option>
   </component>
+  <component name="codewhispererUserGroupSettings">
+    <option name="settings">
+      <map>
+        <entry key="userGroup" value="Control" />
+      </map>
+    </option>
+  </component>
   <component name="connectionPinningManager">
     <option name="pinnedConnections">
       <map>
