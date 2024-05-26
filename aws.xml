@@ -31,14 +31,6 @@
       </map>
     </option>
   </component>
-  <component name="codewhispererSettings">
-    <option name="value">
-      <map>
-        <entry key="IsIncludeCodeWithReference" value="true" />
-        <entry key="OptInSendingMetric" value="false" />
-      </map>
-    </option>
-  </component>
   <component name="codewhispererStates">
     <option name="value">
       <map>
