@@ -21,11 +21,27 @@
   <component name="aws">
     <option name="autoUpdateFeatureNotificationShownOnce" value="true" />
     <option name="promptedForTelemetry" value="true" />
+    <option name="telemetryEnabled" value="false" />
+  </component>
+  <component name="codewhispererSettings">
+    <option name="value">
+      <map>
+        <entry key="IsIncludeCodeWithReference" value="true" />
+        <entry key="OptInSendingMetric" value="false" />
+      </map>
+    </option>
   </component>
   <component name="codewhispererStates">
     <option name="value">
       <map>
         <entry key="IsFirstRestartAfterQInstall" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="codewhispererUserGroupSettings">
+    <option name="settings">
+      <map>
+        <entry key="userGroup" value="Control" />
       </map>
     </option>
   </component>
