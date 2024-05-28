@@ -34,8 +34,10 @@
   <component name="codewhispererStates">
     <option name="value">
       <map>
+        <entry key="IsAutoEnabled" value="true" />
         <entry key="IsMonthlyQuotaForCodeScansExceeded" value="false" />
         <entry key="IsFirstRestartAfterQInstall" value="false" />
+        <entry key="HasShownNewOnboardingPage" value="true" />
       </map>
     </option>
   </component>
