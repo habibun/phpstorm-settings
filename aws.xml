@@ -28,13 +28,16 @@
       <map>
         <entry key="IsIncludeCodeWithReference" value="true" />
         <entry key="OptInSendingMetric" value="false" />
+        <entry key="IsImportAdderEnabled" value="true" />
+        <entry key="IsProjectContextEnabled" value="true" />
+        <entry key="IsProjectContextGpu" value="true" />
       </map>
     </option>
   </component>
   <component name="codewhispererStates">
     <option name="value">
       <map>
-        <entry key="IsAutoEnabled" value="false" />
+        <entry key="IsAutoEnabled" value="true" />
         <entry key="IsMonthlyQuotaForCodeScansExceeded" value="false" />
         <entry key="IsFirstRestartAfterQInstall" value="false" />
         <entry key="HasShownNewOnboardingPage" value="true" />
