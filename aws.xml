@@ -21,7 +21,7 @@
   <component name="aws">
     <option name="autoUpdateFeatureNotificationShownOnce" value="true" />
     <option name="promptedForTelemetry" value="true" />
-    <option name="telemetryEnabled" value="false" />
+    <option name="telemetryEnabled" value="true" />
   </component>
   <component name="codewhispererSettings">
     <option name="value">
