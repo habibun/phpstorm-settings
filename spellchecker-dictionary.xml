@@ -5,6 +5,8 @@
       <w>aggr</w>
       <w>autowire</w>
       <w>biznet</w>
+      <w>blameable</w>
+      <w>caddyfile</w>
       <w>chalan</w>
       <w>challan</w>
       <w>challans</w>
@@ -33,13 +35,16 @@
       <w>lexik</w>
       <w>lyach</w>
       <w>manas</w>
+      <w>mercure</w>
       <w>micr</w>
       <w>namer</w>
       <w>noreply</w>
       <w>organogram</w>
       <w>organograms</w>
+      <w>phpcpd</w>
       <w>phpstan</w>
       <w>purchaseable</w>
+      <w>puro</w>
       <w>recrsively</w>
       <w>samesite</w>
       <w>shivammathur</w>
@@ -48,7 +53,9 @@
       <w>tada</w>
       <w>tejgaon</w>
       <w>throwables</w>
+      <w>timestampable</w>
       <w>transactable</w>
+      <w>unserialize</w>
       <w>unviewed</w>
       <w>vich</w>
       <w>vsly</w>
