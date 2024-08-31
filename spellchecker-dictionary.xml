@@ -5,6 +5,8 @@
       <w>aggr</w>
       <w>autowire</w>
       <w>biznet</w>
+      <w>blameable</w>
+      <w>caddyfile</w>
       <w>chalan</w>
       <w>challan</w>
       <w>challans</w>
@@ -41,8 +43,10 @@
       <w>noreply</w>
       <w>organogram</w>
       <w>organograms</w>
+      <w>phpcpd</w>
       <w>phpstan</w>
       <w>purchaseable</w>
+      <w>puro</w>
       <w>recrsively</w>
       <w>samesite</w>
       <w>shivammathur</w>
@@ -51,6 +55,7 @@
       <w>tada</w>
       <w>tejgaon</w>
       <w>throwables</w>
+      <w>timestampable</w>
       <w>transactable</w>
       <w>unserialize</w>
       <w>unviewed</w>
