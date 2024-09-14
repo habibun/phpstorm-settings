@@ -1,0 +1,9 @@
+<templateSet group="habibun_biznet">
+  <template name="double_click" value="        $params = $request-&gt;toArray();&#10;        try {&#10;            $this-&gt;apiService-&gt;preventDoubleClick($params['id'], '$OBJECT$', '$ACTION$');&#10;        } catch (\Exception $e) {&#10;            return $this-&gt;respondInternalError($e-&gt;getMessage());&#10;        }&#10;        " description="" toReformat="true" toShortenFQNames="true">
+    <variable name="OBJECT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ACTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
