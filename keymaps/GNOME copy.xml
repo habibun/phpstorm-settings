@@ -25,6 +25,9 @@
   <action id="Symfony2Symbols">
     <keyboard-shortcut first-keystroke="alt s" />
   </action>
+  <action id="Tool_External Tools_php-cs-fixer">
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
   <action id="randomness.ShowGroup">
     <keyboard-shortcut first-keystroke="alt a" />
   </action>
