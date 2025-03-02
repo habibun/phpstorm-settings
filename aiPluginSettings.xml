@@ -1,5 +1,10 @@
 <application>
   <component name="AiPluginSettings">
+    <option name="composeEnabledByEmail">
+      <map>
+        <entry key="habibun.noby@gmail.com" value="false" />
+      </map>
+    </option>
     <option name="gotItToolTipsShown" value="true" />
     <option name="lastLoggedInEmail" value="habibun.noby@gmail.com" />
     <option name="privacyBannerDismissedByEmail">
