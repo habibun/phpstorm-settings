@@ -3,6 +3,230 @@
     <option name="contextSharingModeV2" value="AlwaysShare" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1741235696293">review this code
+```php
+&lt;?php
+
+namespace CoreBundle\Entity\Manufacture\ProductionPlanning\Receive;
+
+use Doctrine\ORM\Mapping as ORM;
+use JMS\Serializer\Annotation as JMS;
+
+use CoreBundle\Entity\Manufacture\ProductionPlanning\Receive as Receive;
+use CoreBundle\Entity\Manufacture\ProductionPlanning\Receive\Product\Report as Report;
+use CoreBundle\Entity\Product\StockMaterial;
+use CoreBundle\Util\Rounding;
+
+/**
+ * Class product
+ *
+ * @ORM\Entity()
+ * @ORM\Table(name=&quot;manufacture_pp_receive_product&quot;)
+ *
+ * @JMS\ExclusionPolicy(&quot;all&quot;)
+ */
+class Product
+{
+    /**
+     * @var int $id
+     *
+     * @ORM\Id()
+     * @ORM\GeneratedValue()
+     * @ORM\Column(type=&quot;integer&quot;)
+     *
+     * @JMS\Expose()
+     * @JMS\Groups({&quot;production_planning_details&quot;, &quot;prod_plan_qc_details&quot;, &quot;production_planning_receive_details&quot;})
+     */
+    protected int $id;
+
+    /**
+     * @var float $quantity
+     *
+     * @ORM\Column(name=&quot;quantity&quot;, type=&quot;decimal&quot;, precision=16, scale=6)
+     *
+     * @JMS\Expose()
+     * @JMS\Groups({&quot;production_planning_details&quot;, &quot;prod_plan_qc_details&quot;, &quot;production_planning_receive_details&quot;})
+     */
+    protected float $quantity = 0.000000;
+
+    /**
+     * @var \DateTime $expiryDate
+     *
+     * @ORM\Column(name=&quot;expiry_date&quot;, type=&quot;datetime&quot;)
+     *
+     * @JMS\Expose()
+     * @JMS\Groups({&quot;production_planning_details&quot;, &quot;prod_plan_qc_details&quot;, &quot;production_planning_receive_details&quot;})
+     */
+    protected \DateTime $expiryDate;
+
+    /**
+     * @var Report|null $report
+     *
+     * @ORM\OneToOne(targetEntity=&quot;CoreBundle\Entity\Manufacture\ProductionPlanning\Receive\Product\Report&quot;,
+     *     mappedBy=&quot;planningRcvProduct&quot;,
+     *     cascade={&quot;persist&quot;, &quot;remove&quot;}, orphanRemoval=true)
+     *
+     * @JMS\Expose()
+     * @JMS\Groups({&quot;production_planning_details&quot;, &quot;prod_plan_qc_details&quot;, &quot;production_planning_receive_details&quot;})
+     */
+    protected ?Report $report = null;
+
+    /**
+     * @var Receive $receive
+     *
+     * @ORM\ManyToOne(targetEntity=&quot;CoreBundle\Entity\Manufacture\ProductionPlanning\Receive&quot;, inversedBy=&quot;products&quot;)
+     */
+    protected Receive $receive;
+
+    /**
+     * @var StockMaterial $original
+     *
+     * @ORM\ManyToOne(targetEntity=&quot;CoreBundle\Entity\Product\StockMaterial&quot;)
+     *
+     * @JMS\Expose()
+     * @JMS\Groups({&quot;prod_plan_qc_details&quot;, &quot;production_planning_details&quot;})
+     */
+    protected StockMaterial $original;
+
+    /**
+     * Get expiry date
+     *
+     * @return \DateTime|null
+     */
+    public function getExpiryDate(): ?\DateTime
+    {
+        return $this-&gt;expiryDate ?? null;
+    }
+
+    /**
+     * Set expiry date
+     *
+     * @param \DateTime $expiryDate
+     * @return $this
+     */
+    public function setExpiryDate(\DateTime $expiryDate): self
+    {
+        $this-&gt;expiryDate = $expiryDate;
+
+        return $this;
+    }
+
+    /**
+     * Get original
+     *
+     * @return StockMaterial|null
+     */
+    public function getOriginal(): ?StockMaterial
+    {
+        return $this-&gt;original ?? null;
+    }
+
+    /**
+     * Set original
+     *
+     * @param StockMaterial $original
+     * @return $this
+     */
+    public function setOriginal(StockMaterial $original): self
+    {
+        $this-&gt;original = $original;
+
+        return $this;
+    }
+
+    /**
+     * Get receive
+     *
+     * @return Receive|null
+     */
+    public function getReceive(): ?receive
+    {
+        return $this-&gt;receive ?? null;
+    }
+
+    /**
+     * Set receive
+     *
+     * @param Receive $receive
+     * @return $this
+     */
+    public function setReceive(Receive $receive): self
+    {
+        $this-&gt;receive = $receive;
+
+        return $this;
+    }
+
+    /**
+     * Get quantity
+     *
+     * @return float
+     */
+    public function getQuantity(): float
+    {
+        return Rounding::roundQuantity($this-&gt;quantity);
+    }
+
+    /**
+     * Set quantity
+     *
+     * @param float $quantity
+     * @return $this
+     */
+    public function setQuantity(float $quantity): self
+    {
+        $this-&gt;quantity = Rounding::roundQuantity($quantity);
+
+        return $this;
+    }
+
+    /**
+     * Get report
+     *
+     * @return Report|null|object
+     */
+    public function getReport(): ?Report
+    {
+        return $this-&gt;report ?? null;
+    }
+
+    /**
+     * Set report
+     *
+     * @param Report|null $report
+     * @return $this
+     */
+    public function setReport(?Report $report): self
+    {
+        $this-&gt;report = $report;
+
+        return $this;
+    }
+
+    /**
+     * Get rate
+     *
+     * @return float
+     *
+     * @JMS\VirtualProperty()
+     * @JMS\Groups({&quot;production_planning_details&quot;})
+     */
+    public function getRate(): float
+    {
+        $stocks = $this-&gt;getReceive()-&gt;getStockTransSource() ?
+            $this-&gt;getReceive()-&gt;getStockTransSource()-&gt;getTransaction()-&gt;getStocks() : [];
+
+        foreach ($stocks as $stock) {
+            if ($stock-&gt;getStockMaterial()-&gt;getId() === $this-&gt;getOriginal()-&gt;getId()) {
+                return $stock-&gt;getRate();
+            }
+        }
+
+        return 0.0;
+    }
+}
+
+```</historyEntry>
         <historyEntry timestamp="1740536907932">Add comments to my code</historyEntry>
       </list>
     </option>
