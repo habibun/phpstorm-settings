@@ -3,6 +3,13 @@
     <option name="contextSharingModeV2" value="AlwaysShare" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1742193507539">define this line
+
+when@dev: &amp;dev</historyEntry>
+        <historyEntry timestamp="1742192750165">what is the meaning of this line
+```yaml
+when@test: *dev
+```</historyEntry>
         <historyEntry timestamp="1741701031489">Explain this
 ```php
 setUser($user);
