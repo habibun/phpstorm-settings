@@ -10,6 +10,8 @@
       <w>chalan</w>
       <w>challan</w>
       <w>challans</w>
+      <w>cleancode</w>
+      <w>codesize</w>
       <w>datagrid</w>
       <w>deployphp</w>
       <w>depr</w>
@@ -78,6 +80,7 @@
       <w>transactable</w>
       <w>trishal</w>
       <w>unserialize</w>
+      <w>unusedcode</w>
       <w>unviewed</w>
       <w>userbundle</w>
       <w>vich</w>
