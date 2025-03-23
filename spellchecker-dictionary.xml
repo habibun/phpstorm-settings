@@ -10,6 +10,8 @@
       <w>chalan</w>
       <w>challan</w>
       <w>challans</w>
+      <w>cleancode</w>
+      <w>codesize</w>
       <w>datagrid</w>
       <w>deployphp</w>
       <w>depr</w>
@@ -29,6 +31,7 @@
       <w>finfo</w>
       <w>flowbite</w>
       <w>flowbite's</w>
+      <w>gedmo</w>
       <w>gente</w>
       <w>gerbera</w>
       <w>habibun</w>
@@ -68,7 +71,9 @@
       <w>sluggable</w>
       <w>softdeleteable</w>
       <w>solv</w>
+      <w>stof</w>
       <w>studypro</w>
+      <w>swiftmailer</w>
       <w>symfonycasts</w>
       <w>tada</w>
       <w>tejgaon</w>
@@ -77,6 +82,7 @@
       <w>transactable</w>
       <w>trishal</w>
       <w>unserialize</w>
+      <w>unusedcode</w>
       <w>unviewed</w>
       <w>userbundle</w>
       <w>vich</w>
