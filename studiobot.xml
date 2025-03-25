@@ -3,6 +3,17 @@
     <option name="contextSharingModeV2" value="AlwaysShare" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1742804333179">rewrite message
+
+Previous month Apr-2025 depreciation has not been computed for 6-Eon Bioscience Ltd.</historyEntry>
+        <historyEntry timestamp="1742804181542">rewrite message with context
+```php
+throw new \Exception(sprintf(
+                    'Depreciation for %s has been computed for %s.',
+                    $depEndDate-&gt;format('M-Y'),
+                    $company-&gt;__toString(),
+                ));
+```</historyEntry>
         <historyEntry timestamp="1742710774615">give idea with context</historyEntry>
         <historyEntry timestamp="1742710520465">method name idea
 ```php
