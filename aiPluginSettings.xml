@@ -1,5 +1,6 @@
 <application>
   <component name="AiPluginSettings">
+    <option name="composeEnabled" value="true" />
     <option name="gotItToolTipsShown" value="true" />
     <option name="lastLoggedInEmail" value="habibun.noby@gmail.com" />
     <option name="privacyBannerDismissedByEmail">
