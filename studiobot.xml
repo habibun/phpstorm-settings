@@ -3,6 +3,14 @@
     <option name="contextSharingModeV2" value="AlwaysShare" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1744276131111">dd client url
+```php
+dd($client-&gt;);
+```</historyEntry>
+        <historyEntry timestamp="1744275063407">how to get client url
+```php
+dd($client-&gt;get());
+```</historyEntry>
         <historyEntry timestamp="1744193180489">want to make separate file</historyEntry>
         <historyEntry timestamp="1744193011324">in symfony 6 in need to configure some phone no where should i stote and want to save .yaml format</historyEntry>
         <historyEntry timestamp="1743502944559">can i get locale from session</historyEntry>
