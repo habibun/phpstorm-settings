@@ -15,5 +15,6 @@
       </map>
     </option>
     <option name="shortcutNotificationShown" value="true" />
+    <option name="shouldShowReleaseNotesNotificationMessageInChat" value="true" />
   </component>
 </application>
