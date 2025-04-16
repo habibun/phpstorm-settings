@@ -3,6 +3,9 @@
     <driver id="mariadb">
       <artifact id="MariaDB Connector J" name="MariaDB Connector J" use="true" version="3.3.3" />
     </driver>
+    <driver id="mongo.4">
+      <artifact id="MongoDB" name="MongoDB" use="true" version="1.20" />
+    </driver>
     <driver id="mongo">
       <artifact id="MongoDB" name="MongoDB" use="true" version="1.18" />
     </driver>
@@ -18,9 +21,6 @@
       <library>
         <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.39.2/sqlite-jdbc-3.39.2.jar</url>
       </library>
-    </driver>
-    <driver id="mongo.4" name="">
-      <artifact id="MongoDB" name="MongoDB" use="true" version="1.20" />
     </driver>
     <driver id="d95e63e6-1d74-4802-9960-51fb4b076fab" name="test driver" dialect="SQLite" driver-class="org.sqlite.JDBC" icon="AllIcons.Providers.Sqlite">
       <url-template name="default" template="jdbc:sqlite:!(:memory:){file::identifier.sqlite}?" />
