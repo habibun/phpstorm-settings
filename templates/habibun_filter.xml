@@ -1,7 +1,0 @@
-<templateSet group="habibun_filter">
-  <template name="lt-f-range" value="            [&#10;                'condition' =&gt; 'date($PROPERTY_ALIAS$.$PROPERTY_NAME$) between :from and :to',&#10;                'query' =&gt; '$QUERY_PROPERTY_NAME$',&#10;                'param' =&gt; 'from,to',&#10;                'operator' =&gt; 'between',&#10;            ]," description="" toReformat="false" toShortenFQNames="true">
-    <variable name="PROPERTY_ALIAS" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="QUERY_PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
-  </template>
-</templateSet>
