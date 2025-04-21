@@ -2,7 +2,8 @@
   <component name="DefaultFont">
     <option name="VERSION" value="1" />
     <option name="FONT_SIZE" value="10" />
-    <option name="FONT_SIZE_2D" value="9.75" />
+    <option name="FONT_SIZE_2D" value="10.0" />
     <option name="FONT_SCALE" value="0.75" />
+    <option name="LINE_SPACING" value="1.0" />
   </component>
 </application>
