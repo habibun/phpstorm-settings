@@ -1,6 +1,13 @@
 <application>
   <component name="DeveloperToolsApplicationSettingsV1" addOpenMainDialogActionToMainToolbar="true" autoDetectActionHandlingInstance="true" editorShowSpecialCharacters="false" editorShowWhitespaces="false" editorSoftWraps="true" hideWorkbenchTabsOnSingleTab="true" loadExamples="true" promoteAddOpenMainDialogActionToMainToolbar="false" saveConfigurations="true" saveInputs="true" saveSensitiveInputs="false" selectedActionHandlingInstance="Tool Window" showInternalTools="false" toolsMenuTreeOrderAlphabetically="true" toolsMenuTreeShowGroupNodes="false" />
-  <component name="DeveloperToolsDialogSettingsV1" dialogIsModal="false" lastSelectedContentNodeId="base64-encoder-decoder">
-    <developerToolsConfigurations />
+  <component name="DeveloperToolsDialogSettingsV1" dialogIsModal="false" lastSelectedContentNodeId="xml-text-escape">
+    <developerToolsConfigurations>
+      <developerToolConfiguration developerToolId="sql-formatting" id="095aac76-de72-434e-993b-e2bff6c1d7bb" name="Workbench">
+        <properties>
+          <property key="sourceText" type="INPUT" value="kotlin.String|select c.id, c.name, o.address, o.orderedAt from customers c left join orders o ON (o.customerId = c.id) order by o.orderedAt " />
+        </properties>
+      </developerToolConfiguration>
+    </developerToolsConfigurations>
+    <expandedGroupNodeIds />
   </component>
 </application>
