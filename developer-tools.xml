@@ -1,7 +1,13 @@
 <application>
   <component name="DeveloperToolsApplicationSettingsV1" addOpenMainDialogActionToMainToolbar="true" autoDetectActionHandlingInstance="true" editorShowSpecialCharacters="false" editorShowWhitespaces="false" editorSoftWraps="true" hideWorkbenchTabsOnSingleTab="true" loadExamples="true" promoteAddOpenMainDialogActionToMainToolbar="false" saveConfigurations="true" saveInputs="true" saveSensitiveInputs="false" selectedActionHandlingInstance="Tool Window" showInternalTools="false" toolsMenuTreeOrderAlphabetically="true" toolsMenuTreeShowGroupNodes="false" />
-  <component name="DeveloperToolsDialogSettingsV1" dialogIsModal="false" lastSelectedContentNodeId="xml-text-escape">
+  <component name="DeveloperToolsDialogSettingsV1" dialogIsModal="false" lastSelectedContentNodeId="lorem-ipsum-generator">
     <developerToolsConfigurations>
+      <developerToolConfiguration developerToolId="lorem-ipsum-generator" id="9241c2eb-e045-4a1f-b438-9c42c3f267cf" name="Workbench">
+        <properties>
+          <property key="numberOfValues" type="CONFIGURATION" value="kotlin.Int|3" />
+          <property key="minWordsInParagraph" type="CONFIGURATION" value="kotlin.Int|1" />
+        </properties>
+      </developerToolConfiguration>
       <developerToolConfiguration developerToolId="sql-formatting" id="095aac76-de72-434e-993b-e2bff6c1d7bb" name="Workbench">
         <properties>
           <property key="sourceText" type="INPUT" value="kotlin.String|select c.id, c.name, o.address, o.orderedAt from customers c left join orders o ON (o.customerId = c.id) order by o.orderedAt " />
