@@ -1,6 +1,6 @@
 <application>
   <component name="DeveloperToolsApplicationSettingsV1" addOpenMainDialogActionToMainToolbar="true" autoDetectActionHandlingInstance="true" editorShowSpecialCharacters="false" editorShowWhitespaces="false" editorSoftWraps="true" hideWorkbenchTabsOnSingleTab="true" loadExamples="true" promoteAddOpenMainDialogActionToMainToolbar="false" saveConfigurations="true" saveInputs="true" saveSensitiveInputs="false" selectedActionHandlingInstance="Tool Window" showInternalTools="false" toolsMenuTreeOrderAlphabetically="true" toolsMenuTreeShowGroupNodes="false" />
-  <component name="DeveloperToolsDialogSettingsV1" dialogIsModal="false" lastSelectedContentNodeId="password-generator">
+  <component name="DeveloperToolsDialogSettingsV1" dialogIsModal="false" lastSelectedContentNodeId="uuid-generator">
     <developerToolsConfigurations>
       <developerToolConfiguration developerToolId="password-generator" id="2429f6fe-7248-4eab-8ee7-45402fbe4128" name="Workbench">
         <properties>
