@@ -2,6 +2,8 @@
   <component name="CachedDictionaryState">
     <words>
       <w>biznet</w>
+      <w>blameable</w>
+      <w>deleteable</w>
       <w>disciplinaries</w>
       <w>foursoft</w>
       <w>gedmo</w>
@@ -9,6 +11,8 @@
       <w>phpcpd</w>
       <w>phpstan</w>
       <w>studypro</w>
+      <w>timestampable</w>
+      <w>userbundle</w>
     </words>
   </component>
 </application>
