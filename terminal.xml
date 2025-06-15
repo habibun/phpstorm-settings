@@ -1,5 +1,3 @@
 <application>
-  <component name="TerminalOptionsProvider">
-    <option name="terminalEngine" value="REWORKED" />
-  </component>
+  <component name="ReworkedTerminalUsage"><![CDATA[{}]]></component>
 </application>
