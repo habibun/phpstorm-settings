@@ -5,6 +5,7 @@
         <option value="ONBOARDING_ACTION_TYPE_CHAT" />
       </list>
     </option>
+    <option name="enableCascadeToolWindow" value="false" />
     <option name="firstInstall" value="false" />
     <option name="hasShownPreReleaseNotification" value="true" />
     <option name="showCascadeWelcomePage" value="false" />
