@@ -3,6 +3,8 @@
     <words>
       <w>biznet</w>
       <w>blameable</w>
+      <w>cleancode</w>
+      <w>codesize</w>
       <w>deleteable</w>
       <w>disciplinaries</w>
       <w>entrypoints</w>
@@ -13,6 +15,7 @@
       <w>importmap</w>
       <w>iqra</w>
       <w>lexik</w>
+      <w>maxmethods</w>
       <w>mercure</w>
       <w>perpage</w>
       <w>phpcpd</w>
@@ -22,6 +25,7 @@
       <w>tada</w>
       <w>timestampable</w>
       <w>umrah</w>
+      <w>unusedcode</w>
       <w>userbundle</w>
       <w>vsly</w>
     </words>
