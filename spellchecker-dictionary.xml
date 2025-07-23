@@ -13,8 +13,10 @@
       <w>foursoft</w>
       <w>gedmo</w>
       <w>gente</w>
+      <w>hris</w>
       <w>importmap</w>
       <w>iqra</w>
+      <w>kreait</w>
       <w>lexik</w>
       <w>mailpit</w>
       <w>maxmethods</w>
@@ -23,6 +25,7 @@
       <w>phpcpd</w>
       <w>phpstan</w>
       <w>pjpeg</w>
+      <w>samesite</w>
       <w>studypro</w>
       <w>symfonycasts</w>
       <w>tada</w>
