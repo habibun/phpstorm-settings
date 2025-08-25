@@ -13,6 +13,7 @@
       <w>entrypoints</w>
       <w>eprs</w>
       <w>fbid</w>
+      <w>finfo</w>
       <w>foursoft</w>
       <w>fqcn</w>
       <w>gedmo</w>
@@ -28,6 +29,7 @@
       <w>maxmethods</w>
       <w>meilisearch</w>
       <w>mercure</w>
+      <w>noto</w>
       <w>perpage</w>
       <w>phpcpd</w>
       <w>phpstan</w>
