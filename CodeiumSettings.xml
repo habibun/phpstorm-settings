@@ -1,5 +1,6 @@
 <application>
   <component name="com.codeium.intellij.settings.AppSettingsState">
+    <option name="cascadeAutoExecutionPolicy" value="2" />
     <option name="cascadeOnboardingCompleted" value="true" />
     <option name="chatZoomLevel" value="200" />
     <option name="completedCascadeOnboardingItems">
