@@ -64,6 +64,8 @@
         <option value="docker images" />
         <option value="docker logs" />
         <option value="docker exec -it" />
+        <option value="mkdir" />
+        <option value="touch" />
       </set>
     </option>
     <option name="cascadeOnboardingCompleted" value="true" />
