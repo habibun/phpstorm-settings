@@ -1,5 +1,6 @@
 <application>
   <component name="com.codeium.intellij.settings.AppSettingsState">
+    <option name="allowCascadeAccessGitignoreFiles" value="true" />
     <option name="cascadeAllowedCommands">
       <set>
         <option value="# Development Commands" />
@@ -68,6 +69,7 @@
         <option value="touch" />
       </set>
     </option>
+    <option name="cascadeAutoExecutionPolicy" value="2" />
     <option name="cascadeOnboardingCompleted" value="true" />
     <option name="chatZoomLevel" value="200" />
     <option name="completedCascadeOnboardingItems">
@@ -83,6 +85,7 @@
     <option name="enableCascadeToolWindow" value="false" />
     <option name="firstInstall" value="false" />
     <option name="hasShownPreReleaseNotification" value="true" />
+    <option name="openExplainProblemInCurrentConversation" value="true" />
     <option name="showCascadeWelcomePage" value="false" />
   </component>
 </application>
