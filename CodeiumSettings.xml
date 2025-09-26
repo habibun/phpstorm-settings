@@ -1,5 +1,76 @@
 <application>
   <component name="com.codeium.intellij.settings.AppSettingsState">
+    <option name="allowCascadeAccessGitignoreFiles" value="true" />
+    <option name="autocompleteSpeed" value="AUTOCOMPLETE_SPEED_DEFAULT" />
+    <option name="cascadeAllowedCommands">
+      <set>
+        <option value="# Development Commands" />
+        <option value="composer" />
+        <option value="php bin/console" />
+        <option value="php bin/phpunit" />
+        <option value="php-cs-fixer" />
+        <option value="phpstan" />
+        <option value="yarn" />
+        <option value="npm run dev" />
+        <option value="npm run build" />
+        <option value="# Git Commands" />
+        <option value="git status" />
+        <option value="git add" />
+        <option value="git commit -m" />
+        <option value="git push" />
+        <option value="git pull" />
+        <option value="git fetch" />
+        <option value="git checkout" />
+        <option value="git branch" />
+        <option value="git merge" />
+        <option value="git log" />
+        <option value="git diff" />
+        <option value="# System Navigation" />
+        <option value="ls" />
+        <option value="ll" />
+        <option value="cd" />
+        <option value="pwd" />
+        <option value="cat" />
+        <option value="grep" />
+        <option value="find" />
+        <option value="tail" />
+        <option value="head" />
+        <option value="less" />
+        <option value="nano" />
+        <option value="vim" />
+        <option value="code ." />
+        <option value="# PHP" />
+        <option value="php -v" />
+        <option value="php -m" />
+        <option value="php -i" />
+        <option value="# Symfony Console" />
+        <option value="bin/console cache:clear" />
+        <option value="bin/console debug:router" />
+        <option value="bin/console debug:container" />
+        <option value="bin/console doctrine:migrations:migrate" />
+        <option value="bin/console doctrine:schema:validate" />
+        <option value="bin/console make:*" />
+        <option value="bin/console debug:autowiring" />
+        <option value="bin/console debug:config" />
+        <option value="# Yarn/NPM" />
+        <option value="yarn install" />
+        <option value="yarn add" />
+        <option value="yarn remove" />
+        <option value="yarn upgrade" />
+        <option value="yarn dev" />
+        <option value="yarn build" />
+        <option value="# Docker" />
+        <option value="docker-compose up" />
+        <option value="docker-compose down" />
+        <option value="docker ps" />
+        <option value="docker images" />
+        <option value="docker logs" />
+        <option value="docker exec -it" />
+        <option value="mkdir" />
+        <option value="touch" />
+      </set>
+    </option>
+    <option name="cascadeAutoExecutionPolicy" value="2" />
     <option name="cascadeOnboardingCompleted" value="true" />
     <option name="chatZoomLevel" value="200" />
     <option name="completedCascadeOnboardingItems">
@@ -15,6 +86,7 @@
     <option name="enableCascadeToolWindow" value="false" />
     <option name="firstInstall" value="false" />
     <option name="hasShownPreReleaseNotification" value="true" />
+    <option name="openExplainProblemInCurrentConversation" value="true" />
     <option name="showCascadeWelcomePage" value="false" />
   </component>
 </application>
