@@ -70,7 +70,7 @@
         <option value="touch" />
       </set>
     </option>
-    <option name="cascadeAutoExecutionPolicy" value="2" />
+    <option name="cascadeAutoExecutionPolicy" value="1" />
     <option name="cascadeOnboardingCompleted" value="true" />
     <option name="chatZoomLevel" value="200" />
     <option name="completedCascadeOnboardingItems">
