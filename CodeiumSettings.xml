@@ -72,6 +72,7 @@
     </option>
     <option name="cascadeAutoExecutionPolicy" value="1" />
     <option name="cascadeOnboardingCompleted" value="true" />
+    <option name="chatInlayEnabled" value="false" />
     <option name="chatZoomLevel" value="200" />
     <option name="completedCascadeOnboardingItems">
       <list>
