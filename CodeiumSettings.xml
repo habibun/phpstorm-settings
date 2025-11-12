@@ -1,7 +1,6 @@
 <application>
   <component name="com.codeium.intellij.settings.AppSettingsState">
     <option name="allowCascadeAccessGitignoreFiles" value="true" />
-    <option name="autocompleteSpeed" value="AUTOCOMPLETE_SPEED_DEFAULT" />
     <option name="cascadeAllowedCommands">
       <set>
         <option value="# Development Commands" />
