@@ -5,6 +5,7 @@
         <option name="suppressed">
           <set>
             <option value="cancelled|Only pending or sent to bm order can be changed to cancelled" />
+            <option value="}" />
           </set>
         </option>
       </SuppressingContext>
