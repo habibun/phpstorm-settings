@@ -1,5 +1,0 @@
-<keymap version="1" name="GNOME copy" parent="Default for GNOME">
-  <action id="Tool_External Tools_php-cs-fixer">
-    <keyboard-shortcut first-keystroke="alt c" />
-  </action>
-</keymap>
