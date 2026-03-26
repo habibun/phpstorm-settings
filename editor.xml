@@ -1,4 +1,5 @@
 <application>
+  <component name="DaemonCodeAnalyzerSettings" profile="PhpStorm Light" />
   <component name="InlineCompletionOnboarding">
     <option name="onboardingFinished" value="true" />
   </component>

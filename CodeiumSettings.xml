@@ -1,16 +1,12 @@
 <application>
   <component name="com.codeium.intellij.settings.AppSettingsState">
-    <option name="cascadeAutoExecutionPolicy" value="1" />
-    <option name="cascadeOnboardingCompleted" value="true" />
-    <option name="chatZoomLevel" value="150" />
-    <option name="completedCascadeOnboardingItems">
+    <option name="chatZoomLevel" value="170" />
+    <option name="customTrackedWorkspaces">
       <list>
-        <option value="ONBOARDING_ACTION_TYPE_CHAT" />
+        <option value="$USER_HOME$/Projects/wip/ir" />
       </list>
     </option>
     <option name="enableCascadeToolWindow" value="false" />
-    <option name="firstInstall" value="false" />
-    <option name="hasShownPreReleaseNotification" value="true" />
-    <option name="openExplainProblemInCurrentConversation" value="true" />
+    <option name="nativeCompletionMode" value="autocomplete" />
   </component>
 </application>
