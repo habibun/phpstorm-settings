@@ -1,8 +1,27 @@
 <application>
   <component name="com.codeium.intellij.utilities.ExtensionStorage">
+    <option name="cascadeModelExplicitlySet" value="true" />
+    <option name="firstInstall" value="false" />
     <option name="hasShownNewCompletionApiNotification" value="true" />
     <option name="installationId" value="c2feab75-50a0-456b-a9ee-06ade1df5961" />
-    <option name="lastChangelogVersionShown" value="2.10.3" />
+    <option name="lastChangelogVersionShown" value="2.12.18" />
+    <option name="lastSelectedCascadeModelUids">
+      <list>
+        <option value="MODEL_SWE_1_5_SLOW" />
+        <option value="MODEL_SWE_1_5" />
+        <option value="278" />
+      </list>
+    </option>
     <option name="loggedFirstInstall" value="true" />
+    <option name="migrationMarkers">
+      <set>
+        <option value="lastSelectedCascadeModelUids" />
+        <option value="completionMode" />
+        <option value="cascadePlannerMode" />
+        <option value="lastSelectedSmartFriendModelUid" />
+        <option value="cascadeModelExplicitlySet" />
+        <option value="pinnedCascadeModelUids" />
+      </set>
+    </option>
   </component>
 </application>
